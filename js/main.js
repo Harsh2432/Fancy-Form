@@ -136,7 +136,7 @@ function formComplete() {
     h1.classList.add("end");
     h1.appendChild(
         document.createTextNode(
-            `Thanks ${questions[0].answer} You are registered an will get an email shortly.`
+            `Thanks ${questions[0].answer} You are registered and will get an email shortly.`
         )
     );
     setTimeout(() => {
